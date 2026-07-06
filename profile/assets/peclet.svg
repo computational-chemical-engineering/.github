@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Peclet — GPU-accelerated simulation of transport phenomena around packed particles">
+  <defs>
+    <linearGradient id="pcBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#0b2534"/>
+    </linearGradient>
+    <linearGradient id="stream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="particle" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#fdba74"/>
+      <stop offset="0.6" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#c2410c"/>
+    </radialGradient>
+    <radialGradient id="particle2" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#f9a8d4"/>
+      <stop offset="0.6" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#9d174d"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="400" rx="16" fill="url(#pcBg)"/>
+  <text x="32" y="46" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" fill="#e2e8f0">Peclet</text>
+  <text x="128" y="46" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#7dd3fc">GPU transport phenomena</text>
+
+  <!-- streamlines weaving around particles -->
+  <g fill="none" stroke="url(#stream)" stroke-width="2.4" stroke-opacity="0.85" stroke-linecap="round">
+    <path d="M40 110 C 160 108, 210 78, 300 82 C 400 86, 470 116, 610 110"/>
+    <path d="M40 150 C 150 150, 205 128, 300 130 C 405 132, 470 156, 610 152"/>
+    <path d="M40 200 C 150 200, 210 200, 300 200 C 405 200, 470 200, 610 200"/>
+    <path d="M40 250 C 150 250, 205 272, 300 270 C 405 268, 470 244, 610 250"/>
+    <path d="M40 290 C 160 292, 210 322, 300 318 C 400 314, 470 284, 610 292"/>
+  </g>
+  <!-- flow direction arrows -->
+  <g fill="#7dd3fc">
+    <polygon points="330,82 318,77 318,87"/>
+    <polygon points="330,200 318,195 318,205"/>
+    <polygon points="330,318 318,313 318,323"/>
+  </g>
+
+  <!-- packed particles -->
+  <g stroke="#0b2534" stroke-width="2">
+    <circle cx="300" cy="200" r="46" fill="url(#particle)"/>
+    <circle cx="235" cy="140" r="30" fill="url(#particle2)"/>
+    <circle cx="368" cy="150" r="34" fill="url(#particle2)"/>
+    <circle cx="238" cy="262" r="33" fill="url(#particle2)"/>
+    <circle cx="372" cy="258" r="29" fill="url(#particle2)"/>
+    <circle cx="150" cy="200" r="24" fill="url(#particle)"/>
+    <circle cx="452" cy="205" r="26" fill="url(#particle)"/>
+  </g>
+
+  <!-- method chips -->
+  <g font-family="Arial" font-size="13">
+    <rect x="40" y="344" width="52" height="24" rx="12" fill="#0e7490"/><text x="52" y="360" fill="#e0f2fe">CFD</text>
+    <rect x="100" y="344" width="52" height="24" rx="12" fill="#7c3aed"/><text x="112" y="360" fill="#ede9fe">DEM</text>
+    <rect x="160" y="344" width="72" height="24" rx="12" fill="#be185d"/><text x="172" y="360" fill="#fce7f3">Voronoi</text>
+    <rect x="240" y="344" width="72" height="24" rx="12" fill="#c2410c"/><text x="252" y="360" fill="#ffedd5">GPU/MPI</text>
+    <rect x="320" y="344" width="86" height="24" rx="12" fill="#0369a1"/><text x="332" y="360" fill="#e0f2fe">immersed IB</text>
+  </g>
+</svg>

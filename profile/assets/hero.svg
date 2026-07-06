@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Computational Chemical Engineering — open-source tools for reactor modeling and transport phenomena">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1e3a"/>
+      <stop offset="0.55" stop-color="#123a67"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a7f3d0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- faint grid -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 40 H1200 M0 80 H1200 M0 120 H1200 M0 160 H1200 M0 200 H1200 M0 240 H1200 M0 280 H1200"/>
+    <path d="M40 0 V320 M120 0 V320 M200 0 V320 M280 0 V320 M360 0 V320 M440 0 V320 M520 0 V320 M600 0 V320 M680 0 V320 M760 0 V320 M840 0 V320 M920 0 V320 M1000 0 V320 M1080 0 V320 M1160 0 V320"/>
+  </g>
+
+  <!-- right-hand abstract: flow streamlines + particles -->
+  <g transform="translate(0,0)">
+    <circle cx="1000" cy="160" r="180" fill="url(#glow)"/>
+    <g fill="none" stroke="url(#accent)" stroke-width="3" stroke-opacity="0.75" stroke-linecap="round">
+      <path d="M780 90 C 900 70, 1020 120, 1160 95"/>
+      <path d="M780 130 C 900 118, 1020 168, 1160 140"/>
+      <path d="M780 170 C 900 165, 1020 210, 1160 188"/>
+      <path d="M780 210 C 900 214, 1020 250, 1160 236"/>
+    </g>
+    <g fill="#a7f3d0">
+      <circle cx="852" cy="120" r="7"/>
+      <circle cx="915" cy="200" r="9"/>
+      <circle cx="980" cy="150" r="6"/>
+      <circle cx="1040" cy="205" r="8"/>
+      <circle cx="1075" cy="120" r="6"/>
+      <circle cx="1120" cy="175" r="7"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="70" y="120" fill="#ffffff" font-size="52" font-weight="700">Computational</text>
+    <text x="70" y="178" fill="#ffffff" font-size="52" font-weight="700">Chemical Engineering</text>
+    <rect x="72" y="200" width="120" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="70" y="244" fill="#cbe8ff" font-size="23" font-weight="400">Open-source tools for reactor modeling &amp; transport phenomena</text>
+    <text x="70" y="280" fill="#8fd0f0" fill-opacity="0.9" font-size="17">Eindhoven University of Technology · Chemical Engineering &amp; Chemistry</text>
+  </g>
+</svg>
