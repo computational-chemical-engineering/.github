@@ -64,7 +64,9 @@ A companion **Jupyter Book** that walks through the theory and the package hands
 </td>
 <td width="45%" valign="top" align="center">
 
-<img src="./assets/pymrm.svg" alt="Diffusion, convection and reaction in a multiphase reactor with an axial concentration profile" width="100%">
+<img src="./assets/pymrm-logo.png" alt="PyMRM — Python Multiphase Reactor Modeling logo" width="90%">
+
+<sub>The PyMRM logo, from the <a href="https://computational-chemical-engineering.github.io/pymrm-book">pymrm-book</a>.</sub>
 
 </td>
 </tr>
@@ -83,11 +85,19 @@ A companion **Jupyter Book** that walks through the theory and the package hands
 
 ## 🌀 Peclet — GPU-accelerated Transport Phenomena
 
+<div align="center">
+<img src="./assets/peclet-vortex-street.png" alt="Kármán vortex street behind a cylinder at Re=100 (vorticity field) computed with the Peclet CFD solver" width="92%">
+<br>
+<sub>Kármán vortex street behind a cylinder (Re&nbsp;=&nbsp;100), computed with Peclet — from <a href="https://computational-chemical-engineering.github.io/peclet-examples">peclet-examples</a>.</sub>
+</div>
+
 <table>
 <tr>
 <td width="45%" valign="top" align="center">
 
-<img src="./assets/peclet.svg" alt="Streamlines weaving around packed particles, illustrating GPU-accelerated CFD, DEM and Voronoi transport simulation" width="100%">
+<img src="./assets/peclet-cavity.png" alt="Lid-driven cavity streamlines coloured by velocity magnitude at Re=100, computed with the Peclet CFD solver" width="100%">
+
+<sub>Lid-driven cavity (Re&nbsp;=&nbsp;100), a worked example from <a href="https://computational-chemical-engineering.github.io/peclet-examples">peclet-examples</a>.</sub>
 
 </td>
 <td width="55%" valign="top">
