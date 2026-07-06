@@ -26,31 +26,11 @@
     <path d="M40 0 V320 M120 0 V320 M200 0 V320 M280 0 V320 M360 0 V320 M440 0 V320 M520 0 V320 M600 0 V320 M680 0 V320 M760 0 V320 M840 0 V320 M920 0 V320 M1000 0 V320 M1080 0 V320 M1160 0 V320"/>
   </g>
 
-  <!-- right-hand abstract: flow streamlines + particles -->
-  <g transform="translate(0,0)">
-    <circle cx="1000" cy="160" r="180" fill="url(#glow)"/>
-    <g fill="none" stroke="url(#accent)" stroke-width="3" stroke-opacity="0.75" stroke-linecap="round">
-      <path d="M780 90 C 900 70, 1020 120, 1160 95"/>
-      <path d="M780 130 C 900 118, 1020 168, 1160 140"/>
-      <path d="M780 170 C 900 165, 1020 210, 1160 188"/>
-      <path d="M780 210 C 900 214, 1020 250, 1160 236"/>
-    </g>
-    <g fill="#a7f3d0">
-      <circle cx="852" cy="120" r="7"/>
-      <circle cx="915" cy="200" r="9"/>
-      <circle cx="980" cy="150" r="6"/>
-      <circle cx="1040" cy="205" r="8"/>
-      <circle cx="1075" cy="120" r="6"/>
-      <circle cx="1120" cy="175" r="7"/>
-    </g>
-  </g>
-
   <!-- title -->
-  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="70" y="120" fill="#ffffff" font-size="52" font-weight="700">Computational</text>
-    <text x="70" y="178" fill="#ffffff" font-size="52" font-weight="700">Chemical Engineering</text>
-    <rect x="72" y="200" width="120" height="5" rx="2.5" fill="url(#accent)"/>
-    <text x="70" y="244" fill="#cbe8ff" font-size="23" font-weight="400">Open-source tools for reactor modeling &amp; transport phenomena</text>
-    <text x="70" y="280" fill="#8fd0f0" fill-opacity="0.9" font-size="17">Eindhoven University of Technology · Chemical Engineering &amp; Chemistry</text>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="150" fill="#ffffff" font-size="58" font-weight="700">Computational Chemical Engineering</text>
+    <rect x="500" y="176" width="200" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="600" y="224" fill="#cbe8ff" font-size="24" font-weight="400">Open-source tools for reactor modeling &amp; transport phenomena</text>
+    <text x="600" y="262" fill="#8fd0f0" fill-opacity="0.9" font-size="18">Eindhoven University of Technology · Chemical Engineering &amp; Chemistry</text>
   </g>
 </svg>
