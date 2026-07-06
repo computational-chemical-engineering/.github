@@ -148,9 +148,3 @@ The Peclet suite is modular — `peclet-core`, `peclet-flow`, `peclet-dem`, `pec
 - 🐛 **Open an issue** to report bugs or request features.
 - 🔧 **Contribute** — pull requests are welcome; see each repository's `CONTRIBUTING` guide.
 - 🎓 **Learn** — start with the [pymrm-book](https://computational-chemical-engineering.github.io/pymrm-book) or the [peclet-examples gallery](https://computational-chemical-engineering.github.io/peclet-examples).
-
-<div align="center">
-<br>
-<sub>Built with ❤️ for open, reproducible chemical-engineering research at
-<a href="https://www.tue.nl/en/">Eindhoven University of Technology</a>.</sub>
-</div>
