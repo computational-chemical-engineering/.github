@@ -89,7 +89,7 @@ A companion **Jupyter Book** that walks through the theory and the package hands
 ## 🌀 Peclet — GPU-accelerated Transport Phenomena
 
 <div align="center">
-<img src="./assets/peclet-rotating-drum.png" alt="Rotating drum of cubic particles simulated with the Peclet DEM solver" width="92%">
+<img src="./assets/peclet-rotating-drum.png" alt="Rotating drum of cubic particles simulated with the Peclet DEM solver" width="60%">
 <br>
 <sub>Rotating drum of cubic particles, computed with Peclet — from <a href="https://computational-chemical-engineering.github.io/peclet-examples">peclet-examples</a>.</sub>
 </div>
