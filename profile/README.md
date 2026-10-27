@@ -151,9 +151,11 @@ answer can be trusted.
 - 🧾 Surrogate models admitted only with registered coverage evidence
 - 🖥️ HTTP API with a diagnostic web shell; `pip install openflowsheet`
 
-This is an **early project**. Its numerics are checked against independent reference values, but it
-is **not yet validated** against experiment or another process simulator, and no part has had human
-numerical or process-modeling review. The repository records what has and has not been shown.
+This is an **early project**. Its numerics are checked against independent reference values and agree
+with IDAES and DWSIM on shared cases. Version 0.2.0 is **not validated against experiment**.
+Distillation columns and liquid-mixture thermodynamics, with the first comparisons against measured
+phase-equilibrium data, are in development for v0.3. No part has had human numerical or
+process-modeling review. The repository records what has and has not been shown.
 
 <div align="center">
 
