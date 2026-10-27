@@ -8,11 +8,13 @@
 
 <a href="https://github.com/computational-chemical-engineering/pymrm"><img alt="pymrm" src="https://img.shields.io/badge/pymrm-multiphase%20reactor%20modeling-4f46e5?style=for-the-badge"></a>
 <a href="https://github.com/computational-chemical-engineering/peclet"><img alt="Peclet" src="https://img.shields.io/badge/Peclet-transport%20phenomena-0e7490?style=for-the-badge"></a>
+<a href="https://github.com/computational-chemical-engineering/openflowsheet"><img alt="OpenFlowsheet" src="https://img.shields.io/badge/OpenFlowsheet-process%20simulation-b45309?style=for-the-badge"></a>
 
 <br>
 
 <a href="https://pypi.org/project/pymrm/"><img alt="PyPI pymrm" src="https://img.shields.io/pypi/v/pymrm?label=pymrm%20on%20PyPI&color=3775A9&logo=pypi&logoColor=white"></a>
 <a href="https://pypi.org/project/peclet/"><img alt="PyPI peclet" src="https://img.shields.io/pypi/v/peclet?label=peclet%20on%20PyPI&color=3775A9&logo=pypi&logoColor=white"></a>
+<a href="https://pypi.org/project/openflowsheet/"><img alt="PyPI openflowsheet" src="https://img.shields.io/pypi/v/openflowsheet?label=openflowsheet%20on%20PyPI&color=3775A9&logo=pypi&logoColor=white"></a>
 
 </div>
 
@@ -37,6 +39,10 @@ students, researchers, and engineers can learn from it, build on it, and contrib
 > [**Peclet**](#-peclet--gpu-accelerated-transport-phenomena) for high-performance transport-phenomena
 > simulation. Each ships with a companion project — a *book* and an *examples gallery* — so you can go
 > from first principles to running code.
+>
+> **In development:** [**OpenFlowsheet**](#-openflowsheet--agent-native-process-simulation), an open
+> process simulator for the flowsheet scale, built so that humans and coding agents work on the same
+> explicit models and evidence.
 
 ---
 
@@ -127,6 +133,38 @@ permeability, and more).
 
 ---
 
+## 🏭 OpenFlowsheet — Agent-native Process Simulation
+
+**What it is.** [**OpenFlowsheet**](https://github.com/computational-chemical-engineering/openflowsheet)
+is an open process simulator in which models, equations, numerical strategies, validity limits and
+evidence are **explicit objects**. Humans and coding agents work against the same scientific
+contracts, and each solve writes a bundle that records what was computed and how.
+
+**The aim.** Connect the scales in this organization. A flowsheet can call a detailed model as one of
+its units, such as a pymrm reactor, or a surrogate trained on detailed runs, and say how far each
+answer can be trusted.
+
+**Where it stands (version 0.2.0).**
+- 🧪 Peng–Robinson property route and a reference ammonia-synthesis loop
+- 🔗 A pymrm reactor model running as a unit inside a flowsheet solve
+- 📈 Parametric sensitivities and studies; optimization with Ipopt or a trust-region method
+- 🧾 Surrogate models admitted only with registered coverage evidence
+- 🖥️ HTTP API with a diagnostic web shell; `pip install openflowsheet`
+
+This is an **early project**. Its numerics are checked against independent reference values, but it
+is **not yet validated** against experiment or another process simulator, and no part has had human
+numerical or process-modeling review. The repository records what has and has not been shown.
+
+<div align="center">
+
+[**Repository**](https://github.com/computational-chemical-engineering/openflowsheet) ·
+[**Releases**](https://github.com/computational-chemical-engineering/openflowsheet/releases) ·
+[**PyPI**](https://pypi.org/project/openflowsheet/)
+
+</div>
+
+---
+
 ## 🧭 Explore the organization
 
 | Project | What it does | Links |
@@ -135,6 +173,7 @@ permeability, and more).
 | **pymrm-book** | Companion Jupyter Book: theory + hands-on tutorials for pymrm | [site](https://computational-chemical-engineering.github.io/pymrm-book) |
 | **peclet** | Umbrella suite for GPU/MPI transport-phenomena simulation (CFD · DEM · Voronoi) | [repo](https://github.com/computational-chemical-engineering/peclet) · [PyPI](https://pypi.org/project/peclet/) |
 | **peclet-examples** | Runnable, reproducible worked examples for the Peclet suite | [site](https://computational-chemical-engineering.github.io/peclet-examples) |
+| **openflowsheet** | Agent-native open process simulator (early development) | [repo](https://github.com/computational-chemical-engineering/openflowsheet) · [PyPI](https://pypi.org/project/openflowsheet/) |
 
 The Peclet suite is modular — `peclet-core`, `peclet-flow`, `peclet-dem`, `peclet-voro`, and
 `peclet-morton` each live in their own repository. Browse them all from the
