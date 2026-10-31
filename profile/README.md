@@ -70,6 +70,11 @@ assembled into sparse discretized systems that are easy to read, extend, and tru
 A companion **Jupyter Book** that walks through the theory and the package hands-on.
 📖 Read it online: **https://computational-chemical-engineering.github.io/pymrm-book**
 
+**See it work: the [pymrm-gallery](https://computational-chemical-engineering.github.io/pymrm-gallery).**
+Published reactor and transport models reproduced with pymrm, each a runnable notebook
+validated against the source and checked in CI.
+📖 Browse it: **https://computational-chemical-engineering.github.io/pymrm-gallery**
+
 </td>
 <td width="45%" valign="top" align="center">
 
@@ -84,7 +89,7 @@ A companion **Jupyter Book** that walks through the theory and the package hands
 <div align="center">
 
 [**Repository**](https://github.com/computational-chemical-engineering/pymrm) ·
-[**Book**](https://computational-chemical-engineering.github.io/pymrm-book) ·
+[**Gallery**](https://computational-chemical-engineering.github.io/pymrm-gallery) ·
 [**Documentation**](https://computational-chemical-engineering.github.io/pymrm-book) ·
 [**PyPI**](https://pypi.org/project/pymrm/)
 
@@ -173,6 +178,7 @@ process-modeling review. The repository records what has and has not been shown.
 |---|---|---|
 | **pymrm** | Python multiphase reactor modeling — diffusion, convection, reaction, mass transfer | [repo](https://github.com/computational-chemical-engineering/pymrm) · [PyPI](https://pypi.org/project/pymrm/) |
 | **pymrm-book** | Companion Jupyter Book: theory + hands-on tutorials for pymrm | [site](https://computational-chemical-engineering.github.io/pymrm-book) |
+| **pymrm-gallery** | Published models reproduced and validated with pymrm, as runnable notebooks | [repo](https://github.com/computational-chemical-engineering/pymrm-gallery) · [site](https://computational-chemical-engineering.github.io/pymrm-gallery) |
 | **peclet** | Umbrella suite for GPU/MPI transport-phenomena simulation (CFD · DEM · Voronoi) | [repo](https://github.com/computational-chemical-engineering/peclet) · [PyPI](https://pypi.org/project/peclet/) |
 | **peclet-examples** | Runnable, reproducible worked examples for the Peclet suite | [site](https://computational-chemical-engineering.github.io/peclet-examples) |
 | **openflowsheet** | Agent-native open process simulator (early development) | [repo](https://github.com/computational-chemical-engineering/openflowsheet) · [PyPI](https://pypi.org/project/openflowsheet/) |
@@ -188,4 +194,4 @@ The Peclet suite is modular — `peclet-core`, `peclet-flow`, `peclet-dem`, `pec
 - ⭐ **Star** the projects you find useful — it helps others discover them.
 - 🐛 **Open an issue** to report bugs or request features.
 - 🔧 **Contribute** — pull requests are welcome; see each repository's `CONTRIBUTING` guide.
-- 🎓 **Learn** — start with the [pymrm-book](https://computational-chemical-engineering.github.io/pymrm-book) or the [peclet-examples gallery](https://computational-chemical-engineering.github.io/peclet-examples).
+- 🎓 **Learn** — start with the [pymrm-book](https://computational-chemical-engineering.github.io/pymrm-book), the [pymrm-gallery](https://computational-chemical-engineering.github.io/pymrm-gallery) or the [peclet-examples gallery](https://computational-chemical-engineering.github.io/peclet-examples).
